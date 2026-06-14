@@ -211,19 +211,19 @@
   bottom: 0;
   left: -95px;
   right: -95px;
-  background: url(/img/grow/path-mobil@1x.jpg) center / cover no-repeat;
+  background: url(../img/grow/path-mobil@1x.jpg) center / cover no-repeat;
   z-index: -1;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .grow::before {
-    background-image: url(/img/grow/path-mobil@2x@2x.jpg);
+    background-image: url(../img/grow/path-mobil@2x@2x.jpg);
   }
 }
 @media only screen and (min-width: 768px) {
   .grow::before {
-    background: url(/img/grow/path-desk@1x.jpg) center / cover no-repeat;
+    background: url(../img/grow/path-desk@1x.jpg) center / cover no-repeat;
   }
 }
 /* ============================================flowing */
@@ -249,19 +249,20 @@
   bottom: 0;
   left: -95px;
   right: -95px;
-  background: url(/img/users/users-fond@1x.jpg) center / cover no-repeat;
+  background: url(../img/users/users-fond@1x.jpg) center / cover no-repeat;
   z-index: -1;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .users::before {
-    background-image: url(/img/users/users-fond@2x.jpg);
+    background-image: url(../img/users/users-mobile-fond@1.png);
   }
 }
 @media only screen and (min-width: 768px) {
   .users::before {
-    background: url(/img/users/users-fond@1x.jpg) center / cover no-repeat;
+    background: url(../img/users/users-desk-fond@1x.jpg) center / cover
+      no-repeat;
   }
 }
 /* ============================================ready */
@@ -300,14 +301,14 @@
   bottom: 0;
   left: -95px;
   right: -95px;
-  background-image: url(img/footer/footer-mobi-fond@1x.png);
+  background-image: url(../img/footer/footer-mobi-fond@1x.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
 }
 @media only screen and (min-width: 768px) {
   .footer::before {
-    background: url(img/footer/footer-fond@1x.jpg) center / cover no-repeat;
+    background: url(../img/footer/footer-fond@1x.jpg) center / cover no-repeat;
   }
 }
 .footer-wraper {
