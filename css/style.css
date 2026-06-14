@@ -249,7 +249,7 @@
   bottom: 0;
   left: -95px;
   right: -95px;
-  background: url(../img/users/users-fond@1x.jpg) center / cover no-repeat;
+  background-image: url(../img/users/users-fond@1x.jpg);
   z-index: -1;
 }
 @media (min-device-pixel-ratio: 2),
@@ -257,6 +257,8 @@
   (min-resolution: 2dppx) {
   .users::before {
     background-image: url(../img/users/users-mobile-fond@1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media only screen and (min-width: 768px) {
