@@ -401,10 +401,10 @@
   flex-shrink: 0;
 }
 .footer-tel::before {
-  background-image: url("/svg/tel.svg");
+  background-image: url("../svg/tel.svg");
 }
 .footer-email::before {
-  background-image: url("/svg/email.svg");
+  background-image: url("../svg/email.svg");
 }
 .footer-social {
   display: flex;
