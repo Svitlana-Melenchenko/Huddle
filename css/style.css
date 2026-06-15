@@ -316,6 +316,7 @@
 .footer-wraper {
   align-items: flex-start;
   gap: 104px;
+  background-color: #00252e;
 }
 @media only screen and (min-width: 768px) {
   .footer-wraper {
